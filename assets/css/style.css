@@ -24,6 +24,7 @@ h1, h2 {
 #logo{
     float: left;
     font-size: 280%;
+    text-decoration: none;
 }
 
 #menu{
@@ -53,3 +54,28 @@ h1, h2 {
 .active{
     border-bottom: 1px solid #3a3a3a;
 }
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/hero-image.webp);
+
+    animation-name: hero-zoom;
+    animation-duration:5s ;
+    animation-fill-mode: forwards;
+}
+
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+ @keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+ }
