@@ -184,3 +184,12 @@ h1, h2 {
     width: 95%;
     margin: 0 auto;
  }
+
+ /* */
+
+ #times{
+    background: url(../images/dublin-city.webp) no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+ }
